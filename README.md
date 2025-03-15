@@ -7,7 +7,7 @@ AI-powered document interaction system using Retrieval-Augmented Generation (RAG
 
 ### 📌 Project Overview
 A Streamlit-based chatbot that allows users to:
-1. Upload PDF/text documents
+1. Upload PDF/text/.csv/excels files
 2. Ask questions about document content
 3. Receive AI-generated answers with context from uploaded files
 
@@ -19,7 +19,7 @@ A Streamlit-based chatbot that allows users to:
 ---
 
 ### 🚀 Key Features
-✅ Document processing (PDF/TXT)  
+✅ Files processing (PDF/TXT/.CSV/Excels)  
 ✅ Contextual question answering  
 ✅ Real-time response streaming  
 ✅ Persistent chat history  
@@ -34,7 +34,7 @@ A Streamlit-based chatbot that allows users to:
 | LLM             | Llama 3-8B (Groq)    |
 | Embeddings      | HuggingFace MiniLM   |
 | Vector DB       | FAISS                |
-| File Processing | PyPDF2 + Python std  |
+| File Processing | PyPDF2 + Python std+pandasasai  |
 
 ---
 
